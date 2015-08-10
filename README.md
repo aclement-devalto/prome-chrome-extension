@@ -75,6 +75,10 @@ _Tasks should be run simultaneously._
 
 ## Troubleshooting
 
+### Ruby version should be >= 2.1
+
+If your Ruby version is lower than 2.1, an error will be raised when you runs **bundle install**. Make sure you use a Ruby version which is at least 2.1.
+
 ### Request failed
 
 If the Dispatcher daemon is not running (or crashed), a command executed in Chrome devtools panel will promptly display a "Request failed" message. Just runs the launch command for the Dispatcher daemon to fix the problem.
